@@ -31,7 +31,7 @@ export const AboutSection = () => {
                                  Get in touch
                             </a>
 
-                            <a className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="/Zakaria_El_Arwadi_Data_Analyst_Software_Developer.pdf"  download className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>
 
