@@ -4,8 +4,8 @@ const projects = [
     {
         id: 1,
         title: "Hire Vision",
-        description: "A Next-Generation, AI-Enhanced Applicant Tracking System for Modern Enterprises",
-        image: "/projects/project1.png",
+        description: "AI-powered applicant tracking system focused on resume analysis, candidate screening, and workflow automation. Source code and demo are being finalized.",
+        image: "/projects/loading.png",
         tags: ["React", "TailwindCSS"],
         demoUrl: "#",
         githubUrl: "#",
@@ -15,7 +15,7 @@ const projects = [
         title: "AI-Powered Self-Driving Car Simulation",
         description:
             "self-driving car simulation powered by AI, neural networks, and machine learning.",
-        image: "/projects/project2.png",
+        image: "/projects/loading.png",
         tags: ["JavaScript", "HTML5", "CSS"],
         demoUrl: "#",
         githubUrl: "#",
@@ -23,7 +23,7 @@ const projects = [
     {
         id: 3,
         title: "Battle Ship game",
-        description: "empty for now",
+        description: "Single-player AI and multiplayer Battleship game. Source code is currently being uploaded.",
         image: "/projects/project3.png",
         tags: ["React", "Node.js"],
         demoUrl: "https://battle-ship-game-three.vercel.app",
@@ -33,7 +33,7 @@ const projects = [
 
 export const ProjectsSection = () => {
     return (
-        <section id="projects" className="py-24 px-4 relative">
+        <section id="projects" className="py-16 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     {" "}
@@ -41,8 +41,8 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects. Each project was carefully
-                    crafted with attention to detail, performance, and user experience.
+                    Selected projects are currently being uploaded and documented.
+                    Full source code and detailed write-ups will be available shortly.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
