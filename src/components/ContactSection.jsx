@@ -33,10 +33,20 @@ export const ContactSection = () => {
             /h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Have a project in mind or want to collaborate? feel free to reach out.
-                I'm always open to discuss new opportunities
+                Interested in connecting about early-career software opportunities, training programs, or projects? Feel free to reach out.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+                {/* Open to work badge */}
+                <div className="flex justify-center -mt-4 mb-8">
+                    <span className="flex items-center gap-2 px-3 py-1 rounded-full border border-green-500/30 bg-green-500/10">
+                        <span className="h-2 w-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)]"></span>
+                        <span className="text-xs font-semibold tracking-wide text-green-400 uppercase">
+                            Open to work
+                        </span>
+                    </span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-8">
                     <h3 className="text-2xl font-semibold mb-6" >Contact information</h3>
 
@@ -48,7 +58,7 @@ export const ContactSection = () => {
                             <div>
                                 <h4 className="font-medium"> Email </h4>
                                     <a
-                                        href="mailto:zak432916@gmail.com className="
+                                        href="mailto:zak432916@gmail.com?subject=Website%20Contact&body=Hi%20Zakaria,%0D%0A%0D%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20connect.%0D%0A%0D%0ABest,%0D%0A"
                                         className="text-muted-foreground hover:text-primary transitions-colors"
                                     >zak432916@gmail.com
                                 </a>
@@ -88,10 +98,9 @@ export const ContactSection = () => {
                             <Linkedin />
                             </a>
                             <a>
-                                <Twitter />
+                                {/* <Twitter /> */}
                             </a>
                             <a>
-                                <Instagram />
                             </a>
                         </div>
                     </div>

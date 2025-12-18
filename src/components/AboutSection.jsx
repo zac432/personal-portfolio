@@ -9,19 +9,20 @@ export const AboutSection = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
+                        <h3 className="text-2xl font-semibold">About My Technical Background </h3>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, I specialize
-                            in creating responsive, accessible, and performant web
-                            applications using modern technologies.
+                            I’m a Computer Science graduate with hands-on experience building software
+                            through academic projects and personal work. I enjoy working across the
+                            stack from user interfaces to backend logic and focus on writing clean,
+                            reliable code.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I'm passionate about creating elegant solutions to complex
-                            problems, and I'm constantly learning new technologies and
-                            techniques to stay at the forefront of the ever-evolving web
-                            landscape.
+                            I’m particularly interested in roles that combine software engineering with
+                            real-world impact, including data-driven applications. I focus on strengthening
+                            my fundamentals and building projects that demonstrate practical
+                            problem-solving.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -44,9 +45,9 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
+                                    <h4 className="font-semibold text-lg">Software Development</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with modern frameworks.
+                                        Creating web applications and software components with clean code and thoughtful UI/UX design.
                                     </p>
                                 </div>
                             </div>
@@ -57,10 +58,9 @@ export const AboutSection = () => {
                                     <User className="h-6 w-6 text-primary"/>
                             </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <h4 className="font-semibold text-lg">Data & Problem Solving</h4>
                                     <p className="text-muted-foreground">
-                                        Designing intuitive user interfaces and seamless user
-                                        experiences.
+                                        Working with data, logic, and analysis to solve real-world problems.
                                     </p>
                                 </div>
                             </div>
@@ -72,10 +72,10 @@ export const AboutSection = () => {
                                 </div>
 
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <h4 className="font-semibold text-lg">Engineering Practices</h4>
                                     <p className="text-muted-foreground">
-                                        Leading projects from conception to completion with agile
-                                        methodologies.
+                                        Applying software engineering fundamentals such as version control,
+                                        testing, and iterative improvement.
                                     </p>
                                 </div>
 

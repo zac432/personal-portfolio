@@ -22,12 +22,11 @@ const projects = [
     },
     {
         id: 3,
-        title: "empty for now",
-        description:
-            "empty for now",
+        title: "Battle Ship game",
+        description: "empty for now",
         image: "/projects/project3.png",
         tags: ["React", "Node.js"],
-        demoUrl: "#",
+        demoUrl: "https://battle-ship-game-three.vercel.app",
         githubUrl: "#",
     },
 ];
